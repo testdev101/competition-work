@@ -1,0 +1,511 @@
+/* 
+           Master Stylesheet
+    ============================
+    Template Name: Energybiz || HTML Template
+    Author: Apu Barua
+    Author url: 
+    Descriptions: Minimal Blog Templete
+    Version:
+    Tag: blog, two column
+
+ */
+
+/*
+           Table of Content
+        =====================
+ 1. Typography
+ 2. 
+ 3. 
+ 4. 
+ 5. 
+ 6. 
+ 7. 
+ 8. 
+
+*/
+
+/*==================================
+            Typography
+===================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #151163;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #151163;  
+}
+p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #151163;  
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0f0c51;
+    text-decoration: none;
+}
+
+/*==================================
+        Header start here
+===================================*/
+header{
+    padding: 20px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin: 0 20px;
+    transition: all 0.4s ease;
+}
+nav ul li:last-child a{
+    margin-right: 0;
+}
+nav ul li a:hover{
+    color: #ec0a14;
+}
+/*==================================
+        Header start here
+===================================*/
+/*==================================
+        Banner start here
+===================================*/
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    padding-bottom: 50px;
+}
+.banner-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #fff;
+    padding-top: 130px;
+}
+.banner-content p{
+    font-weight: 300;
+    color: #fff;
+    padding-top: 25px;
+}
+.input-wrap{
+    width: 30%;
+    position: relative;
+    margin: 50px 0 70px;
+}
+.input-wrap input{
+    font-weight: 100;
+    font-size: 14px;
+    color: #e3e3ff;
+    background-color: #100d55;
+    border: 0;
+    outline: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+.input-wrap button{
+    font-weight: 400;
+    font-size: 16px;
+    color: #201b85;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    height: 45px;
+    width: 160px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    cursor: pointer;
+}
+.banner-image{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-image img{
+    width: 23%;
+}
+
+/*==================================
+        Banner end here
+===================================*/
+/*==================================
+        Form start here
+===================================*/
+#form{
+    padding: 180px 0 50px;
+}
+.form-content{
+    display: flex;
+    justify-content: space-between;
+}
+.form-left{
+    width: 50%;
+}
+.form-left h1{
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.form-left p{
+    margin-bottom: 70px;
+}
+.form-left-content{
+    display: flex;
+}
+.form-left-content-img a img{
+    width: 50px;
+    margin-right: 30px;
+}
+.form-right{
+    width: 43%;
+    position: relative;
+    margin-top: -130px;
+}
+.form-design{
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: -130px;
+    left: 0;
+    box-shadow: 0px 10px 10px 0px #151261;
+}
+.form-design h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #151163;
+}
+.form-design p{
+    font-size: 16px;
+    color: #151163;
+}
+.design{
+    background-color: #151163;
+    text-align: center;
+    padding: 150px 50px 30px;
+    border-radius: 20px;
+}
+.design input,button{
+    display: block;
+    width: 367px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: 0;
+    outline: none;
+}
+.design input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: #151163;
+}
+.design button{
+    width: 389px;
+    background-color: white;
+    font-weight: 400;
+    font-size: 18px;
+    color: #151163;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*==================================
+        Form end here
+===================================*/
+/*==================================
+        Partner start here
+===================================*/
+#partner{
+    padding: 100px 0;
+}
+#partner h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.partner-content{
+    display: flex;
+    justify-content: space-between;
+}
+.partner-content img{
+    width: 23%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px #151163;
+    border-radius: 10px;
+}
+/*==================================
+        Partner end here
+===================================*/
+/*==================================
+        Cash-back start here
+===================================*/
+#cash-back{
+    background-color: #1c1a76;
+    padding: 80px 0 100px;
+}
+.heading{
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+.heading h1{
+    color: #fff;
+    padding: 0 80px 0 250px;
+    line-height: 55px;
+}
+.heading span{
+    color: #ff0000;
+}
+.heading img{
+    width: 40%;
+}
+.cash-back-content{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.cash-back-content img{
+    width: 23%;
+}
+/*==================================
+        Cash-back end here
+===================================*/
+/*==================================
+        Service start here
+===================================*/
+#service{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+}
+.market{
+    margin-left: 60px;
+}
+.market-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+.market-content .left img{
+    width: 50px;
+}
+.market-content .right img{
+    width: 50px;
+}
+.market-content .left h1{
+    font-weight: 500;
+    font-size: 30px;
+}
+.market-content .left p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.market-content .right h1{
+    font-weight: 500;
+    font-size: 30px;
+}
+.market-content .right p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.market-img{
+    padding: 30px;
+    background-color: #f6fbff;
+}
+.market-img-sec{
+    display: flex;
+}
+.market-img-sec img {
+    width: 150px;
+    margin: 10px;
+}
+/*==================================
+        Service end here
+===================================*/
+/*==================================
+        Business start here
+===================================*/
+#business{
+    padding: 30px 0 100px;
+}
+.business-heading h6{
+    font-weight: 400;
+    font-size: 18px;
+}
+.business-heading p{
+    margin: 30px 0;
+}
+.business-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.business-img{
+    width: 50%;
+}
+.business-img img{
+    width: 100%;
+}
+.business-content{
+    width: 50%;
+}
+.business-facts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.business-common{
+    padding: 50px;
+    box-shadow: 0 0 10px transparent;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+.business-left:hover{
+    box-shadow: 0 0 10px #000;
+}
+.business-left-two:hover{
+    box-shadow: 0 0 10px #000;
+}
+.business-right:hover{
+    box-shadow: 0 0 10px #000;
+}
+.business-right-two:hover{
+    box-shadow: 0 0 10px #000;
+}
+/*==================================
+        Business end here
+===================================*/
+/*==================================
+        Get-upto start here
+===================================*/
+#get-upto{
+    padding: 100px 0;
+    background-color: #fcfcfc;
+}
+.get-upto-content{
+    text-align: center;
+}
+.get-upto-content h2{
+    line-height: 50px;
+}
+.get-upto-content span{
+    color: #ff0000;
+}
+.get-upto-content p{
+    margin-top: 40px;
+}
+.get-upto-content img{
+    margin: 50px 0 100px;
+}
+.get-upto a{
+    padding: 15px 45px;
+    background-color: #1c1a76;
+    color: #fff;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+}
+.get-upto a:hover{
+    background-color: #ff0000;
+}
+/*==================================
+        Get-upto end here
+===================================*/
+/*==================================
+        Client start here
+===================================*/
+#client{
+    padding: 100px 0;
+}
+#client p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.client-content{
+    display: flex;
+    justify-content: space-between;
+}
+.client-content img{
+    width: 15%;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+}
+/*==================================
+        Client end here
+===================================*/
+/*==================================
+        Location start here
+===================================*/
+#location{
+    padding: 100px 0;
+    background-color: #1c1a76;
+}
+.location-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.location-common{
+    text-align: center;
+}
+.location-common h3{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.location-common address{
+    font-size: 18px;
+    color: #fff;
+    font-style: normal;
+}
+.location-common p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+/*==================================
+        Location end here
+===================================*/
+/*==================================
+        Footer start here
+===================================*/
+footer{
+    padding: 20px 0;
+}
+.footer-content h3{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+/*==================================
+        Footer end here
+===================================*/
